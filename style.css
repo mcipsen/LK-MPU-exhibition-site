@@ -1,0 +1,103 @@
+.conent, html, body {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: aquamarine;
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.right {
+    right: 0;
+    background-color: beige;
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.show-header {
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-variant: small-caps;
+    width: 400px;
+    margin-top: 23px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    padding-top: 14px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    border-style: double;
+    box-shadow: -7px 7px;
+    font-size: 30px;
+    font-style: italic;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.collective-header {
+    text-align: center;
+    font-family: Times, "Times New Roman", serif;
+    text-decoration: underline;
+    font-variant: small-caps;
+    width: 332px;
+    margin-top: 23px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    padding-top: 14px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    border-style: double;
+    box-shadow: -7px 7px;
+    font-size: 20px;
+    font-style: italic;
+    color: #000000;
+    font-weight: bolder;
+}
+.grid-box {
+    color: #000000;
+    font-weight: bold;
+    font-style: italic;
+    font-size: medium;
+    text-decoration: underline;
+    border: medium double #000000;
+    padding: 5px;
+    text-align: center;
+    box-shadow: -6px 5px 0px #000000;
+    display: block;
+    width: 70%;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
