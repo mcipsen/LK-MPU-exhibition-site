@@ -12,6 +12,7 @@
     top: 0;
     overflow-x: hidden;
     padding-top: 20px;
+    text-align: center;
 }
 
 .left {
@@ -32,14 +33,33 @@
     overflow: scroll;
 }
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.collective-header {
+    position: sticky;
+    margin-top: 50px;
+    margin-bottom: 30px;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    display: inline-block;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: double;
+    border-width: 20px;
 }
 
+
+.content {
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.vid-container {
+    margin: auto;
+}
+
+/*
 .show-header {
     text-align: center;
     font-family: sans-serif;
@@ -101,3 +121,6 @@
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
+*/
+
