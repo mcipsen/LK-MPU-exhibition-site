@@ -19,7 +19,7 @@ body {
 
 .header-main img {
     display: block;
-    max-width: 400px;
+    max-width: min(100vw, 400px);
     width: auto;
     height: auto;
 }
