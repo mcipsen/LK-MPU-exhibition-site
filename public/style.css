@@ -1,0 +1,163 @@
+:root {
+    --main-blue-color: #0037FF;
+}
+  
+body {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header-main img {
+    display: block;
+    max-width: min(100vw, 400px);
+    width: auto;
+    height: auto;
+}
+
+.header-main h1 {
+    font-size: x-large;
+    padding: 10px;
+    color: var(--main-blue-color);
+}
+
+.menu {
+    margin-top: -30px;
+}
+
+ul {
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--main-blue-color);
+}
+
+a, a:visited{
+    color: var(--main-blue-color);
+}
+
+.exhibition-dates {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.MPU-dates {
+   max-width: 400px;
+   border: 5px solid var(--main-blue-color);
+   padding: 20px; 
+   margin-right: 10px;
+   text-align: center;
+}
+
+.LK-dates {
+    max-width: 400px;
+    border: 5px solid var(--main-blue-color);
+    padding: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.exhibition-info {
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    max-width: 800px;
+}
+
+.exhibition-info p {
+    max-width: 600px;
+    border: 5px solid var(--main-blue-color);
+    padding: 20px 40px;
+    line-height: 1.6;
+}
+
+.exhibition-text-body {
+    max-width: 600px;
+    border: 5px solid var(--main-blue-color);
+    padding: 20px 40px;
+    line-height: 1.6;
+    margin: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 50px;
+}
+
+.exhibition-text-body p {
+    margin: 20px;
+}
+
+.readings-description {
+    max-width: 750px;
+    border: 5px solid var(--main-blue-color);
+    padding: 20px 40px;
+    line-height: 1.6;
+    margin: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 50px;
+}
+
+.readings-container {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.item {
+    max-width: 200px;
+    max-height: 200px;
+    word-wrap: break-word;
+    border: 5px solid var(--main-blue-color);
+    padding: 20px;
+  }
+
+.program-info-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+.program-info {
+    font-size: large;
+    color: var(--main-blue-color);
+}
+
+.program-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.program-item {
+   max-width: 400px;
+   border: 5px solid var(--main-blue-color);
+   padding: 20px; 
+   margin: 30px;
+}
+
+.program-item img {
+    max-width: 400px;
+}
