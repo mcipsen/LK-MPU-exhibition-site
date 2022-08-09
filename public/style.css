@@ -134,8 +134,8 @@ a, a:visited {
     font-size: large;
     color: var(--main-blue-color);
 
-    padding: 20px; 
-    margin: 30px;
+    padding: 0px 20px; 
+    margin: 0px 30px;
 }
 
 .program-container {
@@ -147,13 +147,13 @@ a, a:visited {
 .program-item {
     font-family: 'Noto Sans', sans-serif;
     line-height: 1.6;
-    
-    max-width: 400px;
+
+    max-width: min(35vw, 400px);
     border: 5px solid var(--main-blue-color);
-    padding: 20px; 
+    padding: 10px 20px; 
     margin: 30px;
 }
 
 .program-item img {
-    max-width: 400px;
+    max-width: min(35vw, 400px);
 }
